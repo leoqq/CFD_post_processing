@@ -3,6 +3,7 @@ clear all;
 % filename='les3d/les000071_+7.00110e-04.col';
 % M=dlmread(filename,'',2,0); %Filenames
 M = importdata('800K_000121_+1.20026e-03.col');
+% Convert coordinate to different units 
 X=M(:,1)*1000;
 Y=M(:,2)*1000;
 Z=M(:,3)*1000;
@@ -53,7 +54,7 @@ save(filename1,'Xq','Rq','CH2Oq');
 % colormap(jet)
 % %colorbar
 % hold on
-
+%plot figures without any Edge
 figure
 hold on
 [cs,hc]=contourf(Xq,Rq,OHq,[0:1e-4:1e-3]); %,[0:1e-4:5e-3]
