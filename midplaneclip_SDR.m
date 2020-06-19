@@ -1,4 +1,5 @@
 tic;
+%Scalar dissipation rate this has to be included in your post output file 
 clear all;
 % filename='les3d/les000071_+7.00110e-04.col';
 % M=dlmread(filename,'',2,0); %Filenames
