@@ -1,5 +1,5 @@
 clc; clear; close all;
-
+%This is the plotting tool for ECN spray A mixture fraction
 %load experimental mixture fraction profiles:
  xv = load('900K22.8kg150MPa_mean/xv.csv');
  yv = load('900K22.8kg150MPa_mean/yv.csv');
@@ -11,7 +11,7 @@ clc; clear; close all;
  sim25 = load('Mixture_fraction_25mm');
  sim45 = load('Mixture_fraction_45mm');
  
- 
+
  
  %Radial plots
  figure(1)
