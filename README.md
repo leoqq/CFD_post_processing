@@ -1,5 +1,8 @@
 # CFD_post_processing
-This is a repository for different post-processing code for combustion modelling 
+This is a repository for different post-processing code for combustion modelling, the output files can come from any combustion code i.e CONVERGE, Openfoam,  or Fluent . The authors have been mainly using CONVERGE
+
+# Software requirement 
+Most of the code is running on Matlab and occasionally it can be python depending on the usasage 
 
 
 ## How to use this module
